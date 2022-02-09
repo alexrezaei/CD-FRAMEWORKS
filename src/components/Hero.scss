@@ -1,0 +1,21 @@
+.container {
+    margin: 0 auto;
+    padding: 0 !important;
+    height: 100%;
+    max-width: 1280px;
+    .carousel-inner {
+    }
+    .carousel-inner img {
+        object-fit: cover;
+        min-height: 287px;
+    }
+    button {
+      width: 30px !important;
+      height: 30px !important;
+      border-collapse: separate !important;
+      border-radius: 2px !important;
+    }
+    .active {
+        background-color: #E92569;
+    }
+}

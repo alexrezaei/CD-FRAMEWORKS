@@ -1,0 +1,57 @@
+
+.navbar {
+    background-color: #EFEFEF !important;
+    height: 7rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    .container-fluid {
+        padding: 0;
+    }
+    .navbar-brand {
+        color: #E92569;
+        font-size: 2rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-style: italic;
+        margin-left: 30px
+    }
+    .navbar-toggler {
+        margin-right: 30px
+    }
+    .navbar-collapse {
+        background-color: #EFEFEF;
+        height: 100%;
+        margin-top: 10px
+    }
+    .navbar-nav a {
+        font-size: 1.8rem;
+        font-family: 'Lato', sans-serif;
+        color: #0A0A0A !important;
+        margin-left: 51px;
+        margin-top: 10px
+    }
+    .d-flex {
+        margin-top: 6rem;
+        margin-bottom: 2.5rem;
+    }
+    .form-control {
+        margin-right: 0px !important;
+        height: 47px;
+        max-width: 310px;
+        margin-left: 31px;
+        border-radius: 0;
+        border: none;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        width: 43px;
+        height: 47px;
+        border-radius: 0px 4px 4px 0px;
+        background-color: #E92569;
+        color: #FFFFFF;
+        border: #FFFFFF;
+        font-size: 1.6rem;
+        font-family: 'Lato', sans-serif;
+    }
+}

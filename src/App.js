@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import { Button, Alert, Breadcrumb, Card } from 'react-bootstrap'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import Nav from "./components/Nav.js";
+import Hero from "./components/Hero.js";
+import Homepagetext from "./components/Homepagetext.js";
+import Accordion from "./components/Accordion.js"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav></ Nav>
+      <Hero></Hero>
+      <Homepagetext></Homepagetext>
+      <Accordion></Accordion>
     </div>
   );
 }
