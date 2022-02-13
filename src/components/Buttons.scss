@@ -1,0 +1,32 @@
+.buttons {
+  padding-left: 36px;
+  margin-top: 30px;
+  a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 14px 20px 15px 20px;
+    background-color: #ffff;
+    text-align: center;
+    color: #e92569;
+    border: 1px solid #e92569;
+  }
+  a:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+  a:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+  a.active {
+    background-color: #e92569 !important;
+    color: #ffff;
+  }
+  @media (min-width: 1100px) {
+    padding-left: 75px;
+  }
+}
+
+.btn-primary.active {
+  border: none !important;
+  background-color: #e92569;
+}
